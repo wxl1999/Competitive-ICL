@@ -35,7 +35,7 @@ For *Natural Language Inference/Paraphrase Detection*, we employ SICK, SNLI, WNL
 
 **Abstract setting**: Abstract symbol
 
-**We report the results across five random seeds and 16 datasets.**
+We report the results across **five random seeds** and **16 datasets**.
 
 ## Run experiments 👋
 
