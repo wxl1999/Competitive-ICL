@@ -15,6 +15,7 @@ Through adaptive ensemble learning, the performance of ICL can be significantly 
 ## Installation 🚀
 
 transformers = 4.41.1
+
 vllm = 0.4.2
 
 ## Reproducing Experiments 🖊️
