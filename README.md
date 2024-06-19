@@ -44,11 +44,11 @@ We report the results across **five random seeds** and **16 datasets**.
 
 gpus: The number of GPUs
 
-model_name: The name of the model
+model_name: The name of the model (pythia-410m, pythia-1b, pythia-1.4b, pythia-2.8b, pythia-6.9b, pythia-12b, minicpm, baichuan2, amber, crystalcoder, olmo)
 
 pretraining_steps: The step of the checkpoint
 
-dataset_names: The name of the dataset
+dataset_names: The name of the dataset (glue-sst2,financial_phrasebank,tweet_eval-emotion,poem_sentiment,trec,tweet_eval-stance_atheism,tweet_eval-stance_feminist,sick,glue-mrpc,snli,glue-wnli,tweet_eval-hate,ethos-gender,ethos-race,ethos-national_origin,ethos-religion)
 
 dataset_seeds: The seed of demonstration
 

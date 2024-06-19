@@ -16,8 +16,6 @@ def transfor_model2model_path(model_name: str, revision: int):
         model_path = baichuan2_path
     elif "olmo" in model_name:
         model_path = olmo_path
-    elif "tinyllama" in model_name:
-        model_path = tinyllama_path
     elif "minicpm" in model_name:
         model_path = minicpm_path
     elif "amber" in model_name:

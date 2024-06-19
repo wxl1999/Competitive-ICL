@@ -1,8 +1,8 @@
 #!/bin/bash
 
 MODEL_NAMES=("pythia-2.8b" "pythia-6.9b" "pythia-12b")
-PRETRAINING_STEPS=(13000 26000 39000 52000 65000 78000 91000 104000 117000 130000 143000)
-DATASET_NAMES="ade_corpus_v2-classification,ag_news,anli,art,blimp-anaphor_number_agreement,blimp-ellipsis_n_bar_2,blimp-sentential_negation_npi_licensor_present,blimp-sentential_negation_npi_scope,boolq"
+PRETRAINING_STEPS=(4000 13000 21000 30000 39000 47000 56000 65000 73000 82000 91000 99000 108000 117000 125000 134000 143000)
+DATASET_NAMES="glue-sst2,financial_phrasebank,tweet_eval-emotion,poem_sentiment,trec,tweet_eval-stance_atheism,tweet_eval-stance_feminist,sick,glue-mrpc,snli,glue-wnli,tweet_eval-hate,ethos-gender,ethos-race,ethos-national_origin,ethos-religion"
 DATASET_SEEDS=("13" "21" "42" "87" "100")
 SHOT_NUMS="16"
 PROMPT_FORMATS=("minimal")
