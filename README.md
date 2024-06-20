@@ -60,7 +60,7 @@ evaluation_types: evaluation types (golden, random, abstrasct_symbols)
 
 ### Model path
 
-Update your model path in Line 12 in src/utils/utils.py
+Update your model path in **Line 12 in src/utils/utils.py**
 
 ### Calculate the accuracy for golden, random, and abstract settings.
 
