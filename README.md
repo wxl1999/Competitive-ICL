@@ -62,15 +62,13 @@ evaluation_types: evaluation types (golden, random, abstrasct_symbols)
 
 Update your model path in Line 12 in src/utils/utils.py
 
-### Example
-
-#### Calculate the accuracy for golden, random, and abstract settings.
+### Calculate the accuracy for golden, random, and abstract settings.
 
 ```
 bash scripts/example.sh
 ```
 
-#### Calculate Competition Measurement
+### Calculate Competition Measurement
 
 Calculate main results, including **indicator metric $C_i^h$**, **intensity of competition $C_i^s$**, and **cumulative intensity score $R_i$**. (Example: MiniCPM-2B)
 
@@ -80,7 +78,7 @@ python src/post_process/competitive_main.py
 python src/post_process/main_res.py
 ```
 
-#### Model Fusion
+### Model Fusion
 
 Calculate the accuracy of the fusion of two small models.
 
