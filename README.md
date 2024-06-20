@@ -85,7 +85,3 @@ Calculate the accuracy of the fusion of two small models.
 ```
 python src/post_process/model-fusion.py
 ```
-
-## Contact 📮
-
-If you have any questions about our paper or codes, please send an email to txy20010310@163.com.
