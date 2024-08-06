@@ -2,6 +2,8 @@
 
 This repo provides the source code & data of our paper: Investigating the Pre-Training Dynamics of In-Context Learning: Task Recognition vs. Task Learning.
 
+[2024/08/06] The checkpoints of K2-65B are so large (130GB each) that we only downloaded them recently. Now, we are evaluating their performance with the three settings.
+
 ## Overview 😊
 
 + To the best of our knowledge, this is the first time that the competitive relationship between the two abilities of ICL (\ie TR and TL) and its emergence has been investigated.
